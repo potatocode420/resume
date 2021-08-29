@@ -129,7 +129,7 @@
                 "Researched on various types of models to be used for prediction.",
                 "Performed intensive data cleaning to be used for prediction.",
                 "Performed data analysis to select the best parameters for prediction.",
-                "Performed model evaluation to determine the accuracy of the model using various metrics."
+                "Performed model evaluation to determine the performance of the model using cross-validation and hold-out method."
 
             ]
         },
@@ -141,9 +141,9 @@
                 "Researched on various types of deep learning and machine learning models to be used for prediction.",
                 "Built a training dataset containing labels for over 500 different images of animals.",
                 "Saved various models for future comparison using pickle.",
-                "Performed image processing using different edge detection algorithms to improve ML model accuracy.",
+                "Performed image processing using different edge detection algorithms such as Prewitt, Canny and Hog to improve ML model accuracy.",
                 "Performed hyper parameter tuning to improve DL model accuracy.",
-                "Performed model evaluation to determine the accuracy of the model using various metrics."
+                "Performed model evaluation to determine the performance of the model using cross-validation, hold-out and confusion matrix method."
             ]
         }
     ]
