@@ -8,7 +8,7 @@
         <h1>Marc Chai</h1>
       </div>
       <div class="infoholder-details">
-        <span v-for="c in contact" :key="c">
+        <span v-for="c in contact" :key="c" class="infoholder-details-item">
 					<span v-if="c.type=='link'">
 						<a :href="c.info" target="_blank">{{c.info}}</a>
 					</span>
@@ -18,7 +18,6 @@
 					<span v-else>
 						{{c.info}}
 					</span>
-					<span class="separator"> | </span> 
 				</span>
       </div>
     </div>
@@ -92,9 +91,11 @@ export default {
 	display: inline;
 }
 
-.separator {
-	font-weight: 700;
+.infoholder-details-item::after {
+	content: "| ";
 	color: black;
+	font-size: 1em;
+	font-weight: 700;
 }
 
 @media only screen and (max-width: 992px) {
