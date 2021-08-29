@@ -101,12 +101,19 @@ export default {
 	.infoholder h1 {
 		font-size: 3em;
 	}
+
+	.imageholder {
+		width: 50%;
+	}
 }
 
 @media only screen and (max-width: 768px) {
 	.infoholder h1 {
 		font-size: 2em;
 	}
+}
+
+@media only screen and (max-width: 600px) {
 }
 
 @media only screen and (max-width: 320px) {
