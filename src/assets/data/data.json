@@ -1,0 +1,150 @@
+{
+    "contact": [
+        {
+            "type": "number",
+            "info": "017-894-0563"
+        },
+        {
+            "type": "email",
+            "info": "marcchai123@gmail.com"
+        },
+        {
+            "type": "link",
+            "info": "https://github.com/potatocode420"
+        }
+    ],
+    "profile": 
+        {
+        "description": [
+            "I am a self-motivated, personable person who takes pride in the work that I do. I am enthusiastic about cultivating not only interpersonal skills but also skills that are valuable to the company."
+        ],
+        "education": [
+            {
+                "name": "Lodge National Secondary School",
+                "graduation": "Class of 2017"
+            },
+            {
+                "name": "Swinburne University of Technology",
+                "graduation": "Class of 2021",
+                "CGPA": 3.05
+            }
+        ],
+        "keyskills": [
+            "Able to see situations from multiple perspectives",
+            "Able to understand and communicate well with the team",
+            "Able to identify what a product needs",
+            "Able to develop a learner's mindset",
+            "Able to keep up with advances in the industry"
+        ],
+        "industryskills": {
+                "languages": [
+                    {
+                        "Language": "PHP",
+                        "Strength": "5/5"
+                    },
+                    {
+                        "Language": "MySQL",
+                        "Strength": "5/5"
+                    },
+                    {
+                        "Language": "Javscript",
+                        "Strength": "4/5"
+                    },
+                    {
+                        "Language": "Java",
+                        "Strength": "3/5"
+                    },
+                    {
+                        "Language": "C#",
+                        "Strength": "3/5"
+                    }
+                ],
+                "Frameworks": [
+                    {
+                        "Framework": "VueJS",
+                        "Strength": "5/5"
+                    },
+                    {
+                        "Framework": "Android Studio",
+                        "Strength": "4/5"
+                    },
+                    {
+                        "Framework": "React",
+                        "Strength": "2/5"
+                    }
+                ]
+            }
+    },
+    "experience": [
+        {
+            "workplace": "Kosa Coffee",
+            "position": "Barista",
+            "timestamp": "June 2019 - July 2020",
+            "actions": [
+                "Trained more than 10 employees on company workflow and best practices",
+                "Prepared and served over 50 cups of drinks daily to customers",
+                "Made latte art of at least 5 designs",
+                "Catered to customer's concerns and issues throughout the shift",
+                "Maintained a clean workspace throughout the shift"
+            ]
+        },
+        {
+            "workplace": "Coffee Code",
+            "position": "Service Crew",
+            "timestamp": "August 2020 - October 2020",
+            "actions": [
+                "Handled high customer traffic even during Movement Control Order (MCO) to make sure all customers are seated properly according to government SOP",
+                "Always sensitive to customer needs even during peak hours",
+                "Catered to customer's issues and concerns throughout the shift",
+                "Able to gracefully resolve issues with customers without conflict"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Hotel Booking Engine",
+            "type": "final year project",
+            "contributions": [
+                "Designed a booking system for hotels with PHP, MYSQL and JQuery",
+                "Refactored existing codebase to produce a new UI and backend for the booking system",
+                "Worked with existing APIs as well as produced new ones to tailor to the system's needs"
+            ]
+        },
+        {
+            "name": "Customer Manager System",
+            "type": "personal project",
+            "contributions": [
+                "Project done to learn OOP PHP, fetch API and VueJS.",
+                "Developed a REST API with JWT authentication using vanilla PHP.",
+                "Developed frontend CMS UI/UX with VueJS.",
+                "Backend database developed with MYSQL and hosted with XAMPP."
+            ]
+        },
+        {
+            "name": "Property Value Prediction",
+            "type": "university group project",
+            "contributions": [
+                "Built a Random Forest Regression model to predict the future prices of real estate.",
+                "Built a web scraper using Selenium to get property information from websites.",
+                "Researched on various types of models to be used for prediction.",
+                "Performed intensive data cleaning to be used for prediction.",
+                "Performed data analysis to select the best parameters for prediction.",
+                "Performed model evaluation to determine the accuracy of the model using various metrics."
+
+            ]
+        },
+        {
+            "name": "Image Classification",
+            "type": "university group project",
+            "contributions": [
+                "Built Random Forest Classifier and Convolutional Neural Network models to classify animal habitats from images.",
+                "Researched on various types of deep learning and machine learning models to be used for prediction.",
+                "Built a training dataset containing labels for over 500 different images of animals.",
+                "Saved various models for future comparison using pickle.",
+                "Performed image processing using different edge detection algorithms to improve ML model accuracy.",
+                "Performed hyper parameter tuning to improve DL model accuracy.",
+                "Performed model evaluation to determine the accuracy of the model using various metrics."
+            ]
+        }
+    ]
+}
