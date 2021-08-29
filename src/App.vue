@@ -83,7 +83,7 @@ export default {
 	}
 }
 @media only screen and (max-width: 600px) {
-  #app {
+  .container-resume {
     width: 100%;
     min-width: 250px;
   }
